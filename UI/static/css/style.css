@@ -207,6 +207,13 @@ input:read-only{
     background-color: #db2828;
     color: white !important;
 }
+.container{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
 .fluid{
     width: 100%;
