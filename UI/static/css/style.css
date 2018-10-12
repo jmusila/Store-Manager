@@ -1,11 +1,11 @@
-* {
-    box-sizing: border-box;
-}
-
 body{
     font-family: "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     padding: 0%;
     margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 a{
@@ -28,6 +28,7 @@ a{
 }
 
 .site-title a{
+    align-content: center;
     color: #936c6c;
 }
 
@@ -43,6 +44,67 @@ a{
     justify-content: center;
     border-bottom: #d1d8dd 1px solid;
 }
+}
+
+.user-profile-pill{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-profile-dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.user-profile-dropdown:hover .dropbtn {
+    color: rgba(0,0,0,0.7);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.user-profile-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn a{
+    color: black
+}
+.dropbtn a:hover{
+    color: rgba(0,0,0,0.7)
+}
+
+.search{
+    align-content: center;
+
+}
+
 
 
 
@@ -183,18 +245,26 @@ input:read-only{
 
 
 /* Constants */
-.primary{
-    background-color: #936c6c;
-    color: white !important;
+.container{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
-.grey{
-    background-color: #E0E1E2;
-    color: rgba(0, 0, 0, 0.6) !important;
+.blue{
+    background-color:  #1a69a4;
+    color: white !important;
 }
 
 .green{
     background-color: #21ba45;
+    color: white !important;
+}
+
+.primary{
+    background-color: #936c6c;
     color: white !important;
 }
 
