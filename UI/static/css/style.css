@@ -252,18 +252,19 @@ input:read-only{
     align-items: flex-start;
     flex-direction: column;
 }
-.primary{
-    background-color: #936c6c;
-    color: white !important;
-}
 
-.grey{
-    background-color: #E0E1E2;
-    color: rgba(0, 0, 0, 0.6) !important;
+.blue{
+    background-color:  #1a69a4;
+    color: white !important;
 }
 
 .green{
     background-color: #21ba45;
+    color: white !important;
+}
+
+.primary{
+    background-color: #936c6c;
     color: white !important;
 }
 
